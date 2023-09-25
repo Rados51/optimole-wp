@@ -106,6 +106,8 @@ const CSATList = () => {
 
 								<div className="flex justify-between">
 									<Tooltip
+										delay={0}
+										hideOnClick={false}
 										text={ optimoleDashboardApp.strings.csat.privacy_tooltip }
 									>
 										<div className="flex items-center cursor-pointer text-info">
